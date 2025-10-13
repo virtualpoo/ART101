@@ -1,0 +1,19 @@
+.test-div{
+    background: pink;
+    padding: 20px;
+    margin: 20px;
+}
+h2{
+    color: green;
+}
+.test-div{
+    color: rgb(112, 65, 65)
+}
+.test-div h2{color:rgb(115, 115, 201)
+}
+.test-div:hover{
+    background: rgb(156, 197, 156)
+}
+button.special {
+    background: rgb(199, 183, 153);
+}
