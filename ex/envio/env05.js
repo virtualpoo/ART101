@@ -23,7 +23,11 @@ $("#touchchii").click(function () {
 
 });
 
-$("momonga").click(function show(){
-   var image = document.getElementById("momo");
-   style.display="block";
-});
+
+
+    $("#showImage"(url(ex/envio/hehehe.jpg))).click (function(){
+      // find the image element
+      var image = document.getElementById("momo");
+      // make it visible
+      image.style.display = "block";
+    })
