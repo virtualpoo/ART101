@@ -1,0 +1,37 @@
+h1{color:rgb(37, 37, 126); padding-left: 400px;}
+body{
+    background-image: url("y2k\ wallpaper\ background.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;}
+#chii{
+    height: 200px;
+    width: 250px;
+    padding-left: 300px;}
+.h1{color: rgb(120, 175, 228); padding-left: 300px;}
+.h2{color:  rgb(214, 169, 177); padding-left: 300px;}
+
+#una{
+    height:150px;
+    padding-left: 800px;
+    padding-top: 30px;}
+.h3{
+    color:rgb(185, 185, 95);
+    padding-left: 800px;}
+.h4{
+    color: rgb(120, 175, 228);
+    padding-left: 300px;}
+.h5{
+    color: rgb(120, 175, 228);
+    padding-left: 300px;}
+#momo{
+    width: 200px;
+}
+#troll {
+  width: 120px;
+  height: 120px;
+  background: pink;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
