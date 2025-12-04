@@ -1,0 +1,45 @@
+
+BODY {background: #fad7dfff;}
+
+#creature-form {
+    background: #eeeeee;
+    padding: 20px;
+    margin: 50px;
+}
+
+#creature-list {
+ position: relative;
+  overflow: hidden; /* keeps them inside */
+    background: rgba(65, 32, 24, 1);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 50px;
+    min-height: 60vh;
+    min-width: 60vw;
+}
+
+
+
+#creature-form DIV {
+    margin-bottom: 10px;
+}
+
+.creature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* allow left/top animation offsets */
+}
+
+.creature-body {
+    background: pink;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.eye { height: 18px; width: 10px; border: 2px solid #000; border-radius: 10px; background: #fff;}

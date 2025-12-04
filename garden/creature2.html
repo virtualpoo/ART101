@@ -1,0 +1,46 @@
+<html lang="en">
+
+<head>
+   <!-- All techy stuff goes here, inside HEAD -->
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Overall title of your page -->
+   <title>🌺 Creatures Garden 🌺</title>
+   <!-- Link to external CSS file -->
+   <link rel="stylesheet" href="creature2.css">
+   <!-- jQuery library -->
+   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-database-compat.js"></script>
+
+   <!-- Link to external JavaScript file -->
+   <script src="wander.js" DEFER></script>
+   <script src="creature2.js" DEFER></script>
+
+</head>
+
+<body>
+   <!-- Main content goes here, inside BODY -->
+   <h1>🌺 Creatures Garden 🌺</h1>
+
+   <div id="creature-form">
+      <h2>add a creature</h2>
+      <div>name: <input id="crName" type="text" maxlength="10"> </div>
+      <div>color: <input id="crColor" type="color" value="#ee7dea"> </div>
+      <div>number of eyes: <input id="crEyesNum" type="number" max="5" min="0" value="1"> </div>
+      <div><input type="checkbox" id="crRandom" value=""> <label for="crRandom">Randomize!</label></div>
+      <button id="add-creature">let it roam!</button>
+   </div>
+
+   <button id="btn-start">roam!</button>
+   <button id="btn-resume">resume the roam!</button>
+   <button id="btn-freeze">freeze!</button>
+   <button id="btn-load">load!</button>
+<button id="btn-load-three">load 3-eyed!</button>
+
+   <h3>creatures will come:</h3>
+   <div id="creature-list"> </div>
+
+</body>
+
+</html>
