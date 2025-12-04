@@ -10,7 +10,7 @@ BODY {background: #fad7dfff;}
 #creature-list {
  position: relative;
   overflow: hidden; /* keeps them inside */
-    background: rgba(65, 32, 24, 1);
+    background: rgb(126, 114, 112);
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
